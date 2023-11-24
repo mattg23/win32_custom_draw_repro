@@ -1,0 +1,13 @@
+[package]
+name = "win32_custom_draw_issue"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winsafe = { git = "https://github.com/rodrigocfd/winsafe.git", features = ["gui"] }
+
+[profile.smallopt]
+inherits = "dev"
+opt-level = 1
