@@ -11,3 +11,7 @@ winsafe = { git = "https://github.com/rodrigocfd/winsafe.git", features = ["gui"
 [profile.smallopt]
 inherits = "dev"
 opt-level = 1
+
+[profile.lto]
+inherits = "release"
+lto = true

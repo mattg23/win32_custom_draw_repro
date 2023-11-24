@@ -38,3 +38,17 @@ Results in:
 Results in:
 
 ![release](./screenshots/release.png)
+
+## release profile + lto
+
+```sh
+❯ cargo run --profile lto
+   Compiling winsafe v0.0.18 (https://github.com/rodrigocfd/winsafe.git#f1b34a2c)
+   Compiling win32_custom_draw_issue v0.1.0 (D:\learning\win32_custom_draw_issue)
+    Finished lto [optimized] target(s) in 12.66s
+     Running `target\lto\win32_custom_draw_issue.exe`
+```
+
+Results in:
+
+![release](./screenshots/lto.png)
